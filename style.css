@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
     margin:0;
     padding:0;
@@ -5,7 +7,7 @@ body{
 }
 .gameContainer{
     text-align:center;
-    margin-left: 250px;
+    margin-left: 150px;
     margin-top: 50px;
     display:flex;
 }
@@ -41,7 +43,7 @@ nav{
 }
 .gameInfo h2{
     font-size: 5rem;
-    margin-left:40px;
+    margin-left:0px;
 }
 .imgbox img{
     width: 0;
@@ -77,19 +79,38 @@ nav{
     color:white;
     background-color: #002244;
 }
-@media screen and (max-width:950px;)
+
+@media screen and (max-width: 950px)
 {
-    .container{
+    .gameContainer{
         flex-wrap: wrap;
+        margin-left:20%;
     }
-    .gamein{
+    .gameInfo{
         margin-top: 34px;
     }
-    .gamein h2{
-        font-size:10px;
+    .gameInfo h2{
+        font-size: 2rem;
+        margin-right:15%;
+        margin-left:1px;
+        
     }
-    .container{ 
+    .container { 
         grid-template-rows: repeat(3, 20vw);
         grid-template-columns: repeat(3, 20vw);
     }
+    .gameInfo div{
+        font-size:1.5rem;
+        margin-top: 0;
+        align-items:center;
+        text-align:center;
+    }
+    .imgbox {
+        align-items:center;
+        margin-right:55px;
+        }
+        .imgbox img{
+            width:auto;
+            height:auto;
+        }
 }
