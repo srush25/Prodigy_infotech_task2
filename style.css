@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#ccffcc;
+}
+.navbar{
+    color:#004526;
+    font-size:5rem;
+    text-align:center;
+    font-family: 'Lobster', Arial;
+    border-bottom:3px solid #006A4E;
+    width:50%;
+    margin-left:26%;
+}
+.container{
+    color: #000 ;
+    margin-left:25%;
+    padding:0;
+    width:50%;
+    padding-top:2%;
+}
+.timer-Display{
+    border: 5px solid #1B4D3E;
+    border-radius:50%  50%  5px 5px ; 
+    padding:110px;
+    width:450px;
+    margin-left:70px;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+.section1{
+    border-radius: 5px;
+    margin-right:10px;
+}
+.laps{
+    list-style-type:none;
+    text-align:center;
+    font-size:1.4rem;
+    font-family:'Roboto',sans-serif;
+}
+.buttons{
+    display:inline-block;
+    padding-left:10px;
+    width:50%;
+    margin-left:28%;
+}
+.buttons button{
+    padding:10px 20px;
+    margin:15px;
+    font-size:0.85rem;
+    border-radius:10px;
+    width:40%;
+}
+.buttons button:hover{
+    background-color:#1B4D3E;
+    border:5px solid #8F9779;
+    color:white;
+    transition: 0.2s ease-in-out;
+}
